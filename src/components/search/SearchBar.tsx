@@ -1,8 +1,6 @@
 import styles from './SearchBar.module.scss'
 
 import { ChangeEvent, FormEvent, useCallback, useState } from 'react'
-import { useRecoilState } from 'recoil'
-import { searchState } from 'states/disease'
 import { SearchIcon } from 'assets/svgs'
 import { useParams, useSearchParams } from 'react-router-dom'
 
