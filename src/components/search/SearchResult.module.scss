@@ -1,0 +1,33 @@
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px 24px 16px;
+  margin-top: 8px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+
+  li {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    .searchIcon {
+      width: 16px;
+      height: 16px;
+    }
+
+    .mark {
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+
+  li:hover {
+    background-color: #cae9ff;
+  }
+}

@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+  .headerIcon {
+    flex: 1;
+  }
+
+  nav {
+    display: flex;
+    flex: 2;
+
+    ul {
+      display: flex;
+      flex: 1;
+      justify-content: space-evenly;
+    }
+  }
+}
